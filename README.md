@@ -10,6 +10,8 @@ RTF文档
 PDF文件
 图片文件
 文本文件和CSV文件
+
 使用方法也很简单，直接alloc出一个QLPreviewController对象，并实现QLPreviewControllerDelegate,QLPreviewControllerDataSource协议。
 如果想和微信一样就需要对QLPreviewItem自定义，代码中系统模式 和仿微信模式 都实现了，默认文件都下载好了，因为每个公司对AFNetWorking的封装不一样，
 下载部分请自行码代码。
+如果觉得不错 请给个小星星
